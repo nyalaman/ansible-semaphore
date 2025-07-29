@@ -1,4 +1,4 @@
-- hosts: my_servers
+- hosts: web_servers
   become: true
   tasks:
     - name: Install Apache2
